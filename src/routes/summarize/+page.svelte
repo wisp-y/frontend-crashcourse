@@ -12,7 +12,7 @@
 	};
 
 	const getSummary = (prompt) => {
-    	const url = 'API_URL' + '/summary/';
+    	const url = API_URL + '/summary/';
 		const options = {
 			method: 'POST',
 			headers: {
